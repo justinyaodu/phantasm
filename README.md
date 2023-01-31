@@ -33,7 +33,7 @@ Download [phantasm.h](phantasm.h) and include it in your C source files:
 
 ### Registers
 
-phantasm has 16 general-purpose registers, numbered `r0` through `r15`. They each hold a 64-bit value, which can interpreted as a signed integer, an unsigned integer, or a pointer (depending on the instruction).
+phantasm has 16 general-purpose registers, numbered `r0` through `r15`. They each hold a 64-bit value, which is interpreted as a signed integer, an unsigned integer, or a pointer (depending on the instruction).
 
 Every phantasm instruction is a C statement, so there is no program counter, stack pointer, etc.
 
